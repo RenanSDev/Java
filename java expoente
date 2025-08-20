@@ -1,0 +1,19 @@
+public class expoente {
+    
+    public static void main (String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        
+        System.out.print("Digite o número: ");
+        double numero = scanner.nextDouble();
+        
+        System.out.print("Digite o expoente: ");
+        int expoente = scanner.nextInt();
+        
+        double resultado = Math.pow(numero, expoente);
+        
+        System.out.println("O resultado de " + numero + " elevado a " + expoente + " é: " + resultado);
+        
+        scanner.close();
+    }
+}
+}
